@@ -1,0 +1,11 @@
+modules:
+  jira:issuePanel:
+    - key: makori-hello-world-panel
+      function: main
+      title: Makori
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/1c89763b-f20b-4481-bb32-927d8973038c
